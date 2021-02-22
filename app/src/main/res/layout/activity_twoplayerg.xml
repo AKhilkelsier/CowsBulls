@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    tools:context=".twoplayerg">
+
+    <Button
+        android:id="@+id/h3"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/delius"
+        android:text="home"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:backgroundTint="#445945"
+        app:cornerRadius="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yvsc" />
+
+    <Button
+        android:id="@+id/iquit"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/delius"
+        android:text="I Quit"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:backgroundTint="#445945"
+        app:cornerRadius="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/youlost2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c10" />
+
+    <Button
+        android:id="@+id/playagain2"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/delius"
+        android:text="Play again"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:backgroundTint="#445945"
+        app:cornerRadius="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yvsc" />
+
+    <ImageButton
+        android:id="@+id/c3"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c2"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c4"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="13dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c3"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c5"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="13dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c4"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c6"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="12dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c5"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c7"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="14dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c6"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c8"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="13dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c7"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c9"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c8"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c10"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="11dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c9"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/creatorguess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/delius"
+        android:text="Player2 has 10 chances to guess Player1's secret number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/g1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="1 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in1"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="20dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="94dp"
+        android:fontFamily="@font/delius"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="2 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/g3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g1" />
+
+    <EditText
+        android:id="@+id/in2"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="12dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/in1" />
+
+    <TextView
+        android:id="@+id/out2"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/out3"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/out1" />
+
+    <TextView
+        android:id="@+id/g3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:text="3 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in3"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/in4"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/in2" />
+
+    <TextView
+        android:id="@+id/out3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="186dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g4"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="156dp"
+        android:text="4 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in4"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="156dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out4"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g5"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:text="5 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in5"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/in6"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/in4" />
+
+    <TextView
+        android:id="@+id/out5"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="274dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g6"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="248dp"
+        android:text="6 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in6"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="248dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:inputType="number"
+        android:maxLength="4"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out6"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="322dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g7"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="296dp"
+        android:text="7 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in7"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="296dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out7"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g8"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="344dp"
+        android:text="8 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in8"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="344dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out8"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="418dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g9"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="388dp"
+        android:text="9 :"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in9"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="388dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out9"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="462dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/g10"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="432dp"
+        android:text="10:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <EditText
+        android:id="@+id/in10"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="432dp"
+        android:background="#B3E1B5"
+        android:ems="10"
+        android:fontFamily="@font/delius"
+        android:hint="4 digit number"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#353A30"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess" />
+
+    <TextView
+        android:id="@+id/out10"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="506dp"
+        android:fontFamily="@font/delius"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/c1"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/creatorguess"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/c2"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="11dp"
+        android:background="#445945"
+        app:layout_constraintStart_toEndOf="@+id/in1"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/youlost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:fontFamily="@font/delius"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/guessed1"
+        android:layout_width="376dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/delius"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingTop="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/playagain2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

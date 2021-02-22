@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    tools:context=".twoplayer">
+
+    <Button
+        android:id="@+id/gb"
+        android:layout_width="147dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="584dp"
+        android:fontFamily="@font/delius"
+        android:text="go back"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:backgroundTint="#445945"
+        app:cornerRadius="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="39dp"
+        android:fontFamily="@font/delius"
+        android:text="Don't let Player2 see your secret number unless you want to lose"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/gb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1submit" />
+
+    <Button
+        android:id="@+id/player1submit"
+        android:layout_width="153dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/delius"
+        android:text="submit"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:backgroundTint="#445945"
+        app:cornerRadius="10sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/instructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="42dp"
+        android:fontFamily="@font/delius"
+        android:text="PLAYER1\nChoose your secret number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/player1num"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/player1num"
+        android:layout_width="205dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="25dp"
+        android:background="#87AE88"
+        android:ems="10"
+        android:hint="Enter 4 digit\nsecret number"
+        android:fontFamily="@font/delius"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:maxLength="4"
+        app:layout_constraintBottom_toTopOf="@+id/player1submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

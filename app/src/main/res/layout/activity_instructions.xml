@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    tools:context=".Instructions">
+
+    <TextView
+        android:id="@+id/instructions_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/saithik"
+        android:text="INSTRUCTIONS"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructions_heading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius"
+                android:text="1. This is a two player game where Player1 chooses a four digit secret number and Player2 tries to guess it in ten chances with the help of Cows and Bulls.\n
+2. Let’s say Player1 has chosen a four digit secret number and we call it x. Now Player2 tried his chance to guess the number and gave a four digit number y as a try.
+\n3. Amongst the four digits of numbers A and B, if a digit in y matches with the digit in the x and matches their position too, this will add a bull. Total number of bulls for the guess will be the total number of digits in y matching with digits in x with the same position.
+\n4. Now if a digit in y matches with a digit in x but they are not in the same position, then it will add a cow. So the number of cows for a guess will be the total number of digits in y matching with digits in x with different positions.
+\n5. Note that if a Bull is added then that digit in that particular position won’t be considered while counting Cows.
+\n6. Let’s take an example to understand it even better.
+Player1 has chosen the secret as 1108. Now let’s see the number of Bulls and Cows for each guess by Player2.
+\nSecret number : 1108
+\nGuess 1. 4321
+\n	0 Bulls, 1 Cows
+\nGuess 2. 3678
+\n	1 Bulls, 1 Cows
+\nGuess 3. 6189
+\n	1 Bulls, 1 Cows
+\nGuess 4. 4088
+\n	1 Bulls, 1 Cows
+\nGuess 5. 4808
+\n	2 Bulls, 0 Cows
+\nGuess 6. 2908
+\n	2 Bulls, 0 Cows
+\nGuess 7. 6081
+\n	0 Bulls, 3 Cows
+\nGuess 8. 1800
+\n	2 Bulls, 1 Cows
+\nGuess 9. 1180
+\n	2 Bulls, 2 Cows
+\nGuess 10. 1108
+\n	4 Bulls, 0 Cows
+\nWhen Player2 gets four bulls within 10 chances, it’s a win for Player2. Else it’s a win for Player1.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="103dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="104dp"
+                android:layout_marginBottom="100sp"
+                android:fontFamily="@font/delius"
+                android:text="HOME"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                app:backgroundTint="#445945"
+                app:cornerRadius="10sp"
+                app:iconTint="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/instructions"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
